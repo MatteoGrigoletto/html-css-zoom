@@ -93,7 +93,7 @@ main{
     height: 100%;
     display: flex;  
     align-items: center;
-    justify-content: flex-start;
+    justify-content: flex-start; 
 }
  
  .mid-bar{
@@ -109,7 +109,9 @@ main{
  .action-buttons { 
     color: white;
     text-align: center;
-    width: 70px;
+    width: 90px;
+    position: relative;
+    
  }
  .action-buttons button{
     background-color: inherit;
@@ -124,9 +126,16 @@ main{
     text-align: center;
     font-size: 10px;
  }
- .arrow{
-    padding-left: 5px;
+ .right-arrow{
+    position: absolute;
+    right: 0px;
+    top: 15px;
  }
+.left-arrow{
+    position: absolute;
+    left: 0px;
+    top: 15px;
+}
  .end-button{
     background-color: #4a4a4a;
     color: red;
