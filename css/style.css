@@ -11,6 +11,57 @@
     height: 100vh;
     background-color: black;
  }
+ .container{
+    max-width: 90%;
+    margin: auto;
+ }
  /*-------
  header
  -------- */
+header{
+    background-color: black;
+    height: 60px;
+}
+button{
+    color: white;
+    background-color: #4a4a4a ;
+    border-radius: 10px;
+    padding: 5px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+.view-section{
+    text-align: right;
+    padding: 3px;
+}
+
+ /*-------
+main
+ -------- */
+main{
+    height: calc(100% - 140px);
+}
+.album{
+    display: flex;
+    flex-wrap: wrap;
+}
+.photo{
+    width: 245px;
+    height: 145px;
+    background-color: white;
+}
+
+
+
+
+
+
+  /*-------
+ footer
+ -------- */
+ footer{
+    background-color: #222222 ;
+    height: 80px;
+ }
