@@ -22,15 +22,16 @@ header{
     background-color: black;
     height: 60px;
 }
-button{
+.font-text , button a , .microfone{
     color: white;
     background-color: #4a4a4a ;
+}
+button{
     border-radius: 10px;
     padding: 5px;
 }
 button a{
-    text-decoration: none;
-    color: white;
+    text-decoration: none;   
 }
 .view-section{
     text-align: right;
@@ -42,15 +43,29 @@ main
  -------- */
 main{
     height: calc(100% - 140px);
+    background-color: white;
+    overflow-y: auto;
 }
 .album{
     display: flex;
     flex-wrap: wrap;
 }
 .photo{
-    width: 245px;
-    height: 145px;
-    background-color: white;
+    width: calc(245px - 13px);
+    position: relative;
+    margin: 6px ;
+}
+.photo img {
+    display: block;
+    width: 100%;
+    
+}
+.microfone{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    background-color: rgba(106, 119, 131, 0.5);
 }
 
 
